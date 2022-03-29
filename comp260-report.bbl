@@ -1,0 +1,164 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{reigns2016}{software}{}
+      \name{author}{1}{}{%
+        {{hash=e253f0a6f8a84b8359f307103a95e202}{%
+           family={Nerial},
+           familyi={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{e253f0a6f8a84b8359f307103a95e202}
+      \strng{fullhash}{e253f0a6f8a84b8359f307103a95e202}
+      \strng{bibnamehash}{e253f0a6f8a84b8359f307103a95e202}
+      \strng{authorbibnamehash}{e253f0a6f8a84b8359f307103a95e202}
+      \strng{authornamehash}{e253f0a6f8a84b8359f307103a95e202}
+      \strng{authorfullhash}{e253f0a6f8a84b8359f307103a95e202}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{[Digital Game]}
+      \field{title}{Reigns}
+      \field{year}{2016}
+    \endentry
+    \entry{bogost2004}{article}{}
+      \name{author}{1}{}{%
+        {{hash=177d8df6daf6a988ce917b97d3ce360c}{%
+           family={Bogost},
+           familyi={B\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{177d8df6daf6a988ce917b97d3ce360c}
+      \strng{fullhash}{177d8df6daf6a988ce917b97d3ce360c}
+      \strng{bibnamehash}{177d8df6daf6a988ce917b97d3ce360c}
+      \strng{authorbibnamehash}{177d8df6daf6a988ce917b97d3ce360c}
+      \strng{authornamehash}{177d8df6daf6a988ce917b97d3ce360c}
+      \strng{authorfullhash}{177d8df6daf6a988ce917b97d3ce360c}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Other Players}
+      \field{number}{8}
+      \field{title}{Asynchronous multiplay: Futures for casual multiplayer experience}
+      \field{volume}{6}
+      \field{year}{2004}
+    \endentry
+    \entry{diplomacy1959}{software}{}
+      \name{author}{1}{}{%
+        {{hash=78d804c0771a1a17ef314fd0f1f04374}{%
+           family={Calhamer},
+           familyi={C\bibinitperiod},
+           given={Allan\bibnamedelima B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wizards of the Coast}%
+      }
+      \strng{namehash}{78d804c0771a1a17ef314fd0f1f04374}
+      \strng{fullhash}{78d804c0771a1a17ef314fd0f1f04374}
+      \strng{bibnamehash}{78d804c0771a1a17ef314fd0f1f04374}
+      \strng{authorbibnamehash}{78d804c0771a1a17ef314fd0f1f04374}
+      \strng{authornamehash}{78d804c0771a1a17ef314fd0f1f04374}
+      \strng{authorfullhash}{78d804c0771a1a17ef314fd0f1f04374}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{[Physical Game]}
+      \field{title}{Diplomacy}
+      \field{year}{1959}
+    \endentry
+    \entry{schollmeier2001}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=14687c848c748f6d3cf5640a82b670d6}{%
+           family={Schollmeier},
+           familyi={S\bibinitperiod},
+           given={Rüdiger},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{14687c848c748f6d3cf5640a82b670d6}
+      \strng{fullhash}{14687c848c748f6d3cf5640a82b670d6}
+      \strng{bibnamehash}{14687c848c748f6d3cf5640a82b670d6}
+      \strng{authorbibnamehash}{14687c848c748f6d3cf5640a82b670d6}
+      \strng{authornamehash}{14687c848c748f6d3cf5640a82b670d6}
+      \strng{authorfullhash}{14687c848c748f6d3cf5640a82b670d6}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings First International Conference on Peer-to-Peer Computing}
+      \field{title}{A definition of peer-to-peer networking for the classification of peer-to-peer architectures and applications}
+      \field{year}{2001}
+      \field{pages}{101\bibrangedash 102}
+      \range{pages}{2}
+    \endentry
+    \entry{hsu2003}{inproceedings}{}
+      \name{author}{4}{}{%
+        {{hash=e8c079a6e7a548d7d55b4e6e832e112f}{%
+           family={Hsu},
+           familyi={H\bibinitperiod},
+           given={Chia-chun\bibnamedelima Alex},
+           giveni={C\bibinithyphendelim c\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4cc3767d7f3f14ab1892103249b557b4}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Jim},
+           giveni={J\bibinitperiod}}}%
+        {{hash=16a77262afb7cc9b0229c21f168bd098}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Qing},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=dc3f022a05968ca00ab27dbe41a335ca}{%
+           family={Kuo},
+           familyi={K\bibinitperiod},
+           given={C-C\bibnamedelima Jay},
+           giveni={C\bibinithyphendelim C\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {SPIE}%
+      }
+      \strng{namehash}{ab5b11b2fee30376d2378dfb233e93ff}
+      \strng{fullhash}{49897de836fbe2ae673b0f18eadfa2a2}
+      \strng{bibnamehash}{ab5b11b2fee30376d2378dfb233e93ff}
+      \strng{authorbibnamehash}{ab5b11b2fee30376d2378dfb233e93ff}
+      \strng{authornamehash}{ab5b11b2fee30376d2378dfb233e93ff}
+      \strng{authorfullhash}{49897de836fbe2ae673b0f18eadfa2a2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Multimedia Systems and Applications VI}
+      \field{title}{The design of multiplayer online video game systems}
+      \field{volume}{5241}
+      \field{year}{2003}
+      \field{pages}{180\bibrangedash 191}
+      \range{pages}{12}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
