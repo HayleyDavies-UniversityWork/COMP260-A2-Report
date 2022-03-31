@@ -17,19 +17,19 @@
 
 \title{Asynchronous Multiplayer In Video Games}
 \author{Hayley Davies - 1902055}
-\date{27th March 2022}
+\date{31st March 2022}
 
 \begin{document}
 
 \maketitle
 
 \section{Abstract}
-[QUICKLY SUMMARISE THE OVERALL PAPER AND WHAT IS CONCLUDED]
+Not many video games utilise asynchronous multiplayer in a way where players access the same save file and play the same role as the person before them. This is an interesting concept overall and something that could be interesting for both a player and researchers in general. Players having the ability to persistently impact the state of an Empire under their rule for the players that follow leads to an interesting dynamic between players who want to set up the Empire for future success, and a player who wants to watch the world burn.
 
 \section{Introduction}
-This paper serves to provide information regrding how a game's players can network asynchronously and how that can be used to create unique gameplay elements which entice the player.
+This paper serves to provide information regarding how a game's players can network asynchronously and how that can be used to create unique gameplay elements which entice the player.
 
-For the paper, a game called \emph{War and Legacy} has been developed to demonstrate how asynchronous gameplay in video games can be utilised. This game works similar to Reigns\cite{reigns2016} in its card based, choose your own adventure style gameplay, where a player rules a kingdom a must try to not be overthrown by various hazards within the game. These hazards are Population, Military Strength and Financial Stability of the kingdom.
+For the paper, a game called \emph{War and Legacy} has been developed to demonstrate how asynchronous gameplay in video games can be utilised. This game works similar to Reigns\cite{reigns2016} in its card-based, choose-your-own-adventure style gameplay, where a player rules a kingdom a must try to not be overthrown by various hazards within the game. These hazards are Population, Military Strength and Financial Stability of the kingdom.
 
 \section{Research}
 Asynchronous multiplayer is defined by Ian Bogost\cite{bogost2004} with four primary principles.
@@ -40,7 +40,7 @@ Asynchronous multiplayer is defined by Ian Bogost\cite{bogost2004} with four pri
     \item \emph{Asynchronous play need not be the defining characteristic of a game}
 \end{enumerate}
 
-Bogost goes on to list a multitude of both physical and digital games which have a asynchronous multiplayer element to them, many of which, such as Diplomacy\cite{diplomacy1959}, can also be played synchronously, or live, amongst its players.
+Bogost goes on to list a multitude of both physical and digital games which have an asynchronous multiplayer element to them, many of which, such as Diplomacy\cite{diplomacy1959}, can also be played synchronously, or live, amongst its players.
 
 There are various types of networked architecture within computer science, however, the main two are peer-to-peer networks and client-server networks.
 \begin{figure}[!h]
@@ -60,14 +60,34 @@ There are various types of networked architecture within computer science, howev
 
 Peer-to-peer is defined by Schollmeier\cite{schollmeier2001} as a network where "the participants share a part of their own hardware resources [which are] necessary to provide the service and content ... without passing [through] intermediary entities." The popular torrent protocol is based on this principle.
 
-Peer-to-peer is then further split into two classifications by Schollmeier; "Pure" and "Hybrid". Pure peer-to-peer is where "any single, arbitrary chosen [peer] can be removed from the network without [it] sufffering any loss of network service." Hybrid peer-to-peer is where "a central entity is necessary to provide parts of the offered network services."
+Peer-to-peer is then further split into two classifications by Schollmeier; "Pure" and "Hybrid". Pure peer-to-peer is where "any single, arbitrary chosen [peer] can be removed from the network without [it] suffering any loss of network service." Hybrid peer-to-peer is where "a central entity is necessary to provide parts of the offered network services."
 
-Schollmeier defines Client-Server network as a server where the client and server are two distinct nodes where "a client only requests content" and "the server is the only ... provider of content."
+Schollmeier defines a Client-Server network as a server where the client and server are two distinct nodes where "a client only requests content" and "the server is the only ... provider of content."
 
 Within a video games context, both peer-to-peer and client-server networks are utilised. Hsu compares both systems\cite{hsu2003} with six characteristics; Scalability, Delay, Robustness, Consistency, Cheat-proof and Easy to charge. They conclude that peer-to-peer is good for Robustness, Scalability and Delay, but poor for Consistency, Cheat-proof and Easy to charge, whereas, Client-Server is the opposite, being poor for Robustness, Scalability and Delay, but good for Consistency, Cheat-proof and Easy to charge.
 
 \section{System}
-For War and Legacy the gameplay revolves around asynchronous interaction between players. This is difficult to achieve in a peer-to-peer networked system as players within War and Legacy never interact directly at the same time. As such, for this type of project, a client-server network solution works better as you can ensure consistency between players as well as making the game harder to cheat at.
+
+The system itself will be developed over 5 weeks. This is to create a minimum viable product for the project which contains the main functions of the game. As such, the following schedule has been proposed for the development cycle of this game.
+
+\begin{center}
+    Prototype Development Cycle
+    \begin{tabular}{ |c|c| }
+        \hline
+        Week 1 & Create the primary backend for the server \\
+        \hline
+        Week 2 & Create the frontend for the player to interact with \\  
+        \hline
+        Week 3 & Create interesting cards to aide the gameplay \\  
+        \hline
+        Week 4 & Create a save file system \\  
+        \hline
+        Week 5 & Finalize and polish the project \\  
+        \hline
+    \end{tabular}
+\end{center}
+
+For War and Legacy, the gameplay revolves around asynchronous interaction between players. This is difficult to achieve in a peer-to-peer networked system as players within War and Legacy never interact directly at the same time. As such, for this type of project, a client-server network solution works better as you can ensure consistency between players as well as make the game harder to cheat at.
 
 \begin{figure}[!h]
     \centering
@@ -75,14 +95,12 @@ For War and Legacy the gameplay revolves around asynchronous interaction between
     \caption{Class diagram to explain the OOP within War and Legacy. [image by the author]}
 \end{figure}
 
-As you can see in Figure 2, the player only directly interacts with the ServerHandler when they create a new game and a session is then created and attached to that player. The session is hosted on the server from within the server as this allows for validation of user actions to avoid cheating - due to the asynchronous nature of the game and player interaction, cheating players would cause issues with the game as a whole.
+As you can see in Figure 2, the player only directly interacts with the ServerHandler when they create a new game, where a Session is then created and attached to that player. The session is hosted on the server as this allows for validation of user actions to avoid cheating, which could otherwise be an issue and ruin games played by future players on that save file.
 
-The Session will have a list of cards which are drawn from to give the player their options and randomise what the player is doing, these cards will be passed to the player to be displayed and have at least two actions attached to them as these actions will impact how the game goes for the player.
-
-
+The Session will have a list of cards that are drawn to give the player their options and randomise what the player is doing, these cards will be passed to the player to be displayed and have at least two actions attached to them as these actions will impact how the game goes for the player.
 
 \section{Conclusion}
-[CONCLUDE SOMETHING]
+Overall, the use of asynchronous multiplayer as a collaboration method between players creates a unique player interaction model which is seen in very few games as a standard feature - and not something that players themselves must orchestrate.
 
 \defbibfilter{papers}{
     type=inproceedings or

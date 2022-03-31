@@ -516,6 +516,7 @@ INPUT C:\Users\Hayley\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy6.tf
 INPUT C:\Users\Hayley\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr12.tfm
 INPUT C:\Users\Hayley\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\Hayley\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\Hayley\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT .\images\\peer-to-peer.png
 INPUT .\images\\peer-to-peer.png
 INPUT images\\peer-to-peer.png
@@ -531,7 +532,6 @@ INPUT .\images\\client-server.png
 INPUT .\images\\client-server.png
 INPUT .\images\\client-server.png
 INPUT .\images\\client-server.png
-INPUT C:\Users\Hayley\AppData\Local\MiKTeX\pdftex\config\pdftex.map
 INPUT .\images\\class-diagram.png
 INPUT .\images\\class-diagram.png
 INPUT images\\class-diagram.png
