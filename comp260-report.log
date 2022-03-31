@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.12)  29 MAR 2022 02:32
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.12)  31 MAR 2022 04:27
 entering extended mode
 **d:/1902055-comp260-report/comp260-report.tex
 (d:/1902055-comp260-report/comp260-report.tex
@@ -535,7 +535,13 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [1
 
-{C:/Users/Hayley/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./images//peer-to-peer.png> <./images//client-server.png>] (d:/1902055-comp260-report\comp260-report.lof
+{C:/Users/Hayley/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] [2 <./images//peer-to-peer.png> <./images//client-server.png>]
+<./images//class-diagram.png, id=57, 686.565pt x 397.485pt>
+File: ./images//class-diagram.png Graphic file (type png)
+<use ./images//class-diagram.png>
+Package pdftex.def Info: ./images//class-diagram.png  used on input line 74.
+(pdftex.def)             Requested size: 341.43306pt x 197.66847pt.
+ [3 <./images//class-diagram.png>] (d:/1902055-comp260-report\comp260-report.lof
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
@@ -544,7 +550,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@lof=\write5
 \openout5 = `comp260-report.lof'.
 
- [3] (d:/1902055-comp260-report\comp260-report.aux)
+ [4] (d:/1902055-comp260-report\comp260-report.aux)
 Package rerunfilecheck Info: File `comp260-report.out' has not changed.
 (rerunfilecheck)             Checksum: 789F13955061A00971174F76949F5472;219.
 Package logreq Info: Writing requests to 'comp260-report.run.xml'.
@@ -552,17 +558,17 @@ Package logreq Info: Writing requests to 'comp260-report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14793 strings out of 480257
- 267627 string characters out of 2880965
+ 14801 strings out of 480257
+ 267820 string characters out of 2880965
  1013843 words of memory out of 3000000
- 31136 multiletter control sequences out of 15000+200000
+ 31141 multiletter control sequences out of 15000+200000
  539373 words of font info for 43 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,8n,67p,773b,2223s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/Hayley/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/Hayley/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Hayley/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/Hayley/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/Hayley/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/Hayley/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on d:/1902055-comp260-report\comp260-report.pdf (3 pages, 113636 bytes).
+Output written on d:/1902055-comp260-report\comp260-report.pdf (4 pages, 143879 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 22 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 101 PDF objects out of 1000 (max. 8388607)
+ 24 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
