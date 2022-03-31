@@ -75,6 +75,12 @@ For War and Legacy the gameplay revolves around asynchronous interaction between
     \caption{Class diagram to explain the OOP within War and Legacy. [image by the author]}
 \end{figure}
 
+As you can see in Figure 2, the player only directly interacts with the ServerHandler when they create a new game and a session is then created and attached to that player. The session is hosted on the server from within the server as this allows for validation of user actions to avoid cheating - due to the asynchronous nature of the game and player interaction, cheating players would cause issues with the game as a whole.
+
+The Session will have a list of cards which are drawn from to give the player their options and randomise what the player is doing, these cards will be passed to the player to be displayed and have at least two actions attached to them as these actions will impact how the game goes for the player.
+
+
+
 \section{Conclusion}
 [CONCLUDE SOMETHING]
 
